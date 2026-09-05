@@ -1,0 +1,4 @@
+*.evtx
+*.etl
+logs/
+sample_logs/

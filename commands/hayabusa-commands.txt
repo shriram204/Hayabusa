@@ -1,0 +1,23 @@
+HAYABUSA COMMANDS USED
+
+1. Export Security Event Log:
+
+wevtutil epl Security C:\Hayabusa\logs\Security.evtx
+
+2. Generate DFIR Timeline:
+
+Hayabusa-4.0.0-win-x64.exe dfir-timeline -f C:\Hayabusa\logs\Security.evtx -w -o C:\Hayabusa\results\security-timeline.csv
+
+3. Generate HTML Report:
+
+Hayabusa-4.0.0-win-x64.exe dfir-timeline -f C:\Hayabusa\logs\Security.evtx -w -o C:\Hayabusa\results\security-timeline.csv -H C:\Hayabusa\results\security-report.html
+
+4. Important Event IDs:
+
+4624 - Successful Logon
+4732 - User Added to Local Ssecurity Group 
+4724 - Password Reset Attempt 
+
+5.Evidence:
+
+HTML report and CSV timeline were generated for analysis
