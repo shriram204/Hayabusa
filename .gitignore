@@ -2,3 +2,4 @@
 *.etl
 logs/
 sample_logs/
+rules/
