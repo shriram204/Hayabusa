@@ -127,7 +127,8 @@ results.csv
 security-timeline-final.csv
 security-report.html
 README.txt
-📂 Project Structure
+
+📂PROJECT STRUCTURE
 Hayabusa/
 │
 ├── commands/
@@ -155,6 +156,7 @@ Hayabusa/
 ├── rules/
 │
 └── .gitignore
+
 🔐 Security Considerations
 
 The original Windows Security Event Log may contain sensitive system and user information.
@@ -164,6 +166,7 @@ Therefore:
 Raw .evtx files should not be uploaded to a public repository.
 Sensitive logs are excluded using .gitignore.
 Only suitable reports, screenshots, documentation, and sanitized results should be shared publicly.
+
 📝 Conclusion
 
 Hayabusa was successfully used to analyze Windows Security Event Logs and generate a DFIR timeline and HTML security report.
@@ -179,6 +182,8 @@ DFIR Timeline Analysis
 Security Event Investigation
 Windows Security Monitoring
 Cybersecurity Documentation
+
+
 👨‍💻 Project Purpose
 
 This project was created as a practical cybersecurity project to demonstrate hands-on experience with Windows event log analysis, threat hunting, and digital forensics techniques using Hayabusa.
