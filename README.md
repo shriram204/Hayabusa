@@ -5,6 +5,7 @@ A practical cybersecurity project focused on **Windows Security Event Log analys
 The project analyzes Windows `.evtx` logs to identify security-relevant activities such as **administrator group changes, password reset attempts, successful logons, credential activity, and process execution**.
 
 Hayabusa was used to generate a **DFIR timeline, CSV results, and HTML security report** for investigation.
+<img width="854" height="607" alt="Hayabusa" src="https://github.com/user-attachments/assets/78f33c95-2d82-40a0-b655-c1ed2d002ccb" />
 
 ---
 
